@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    min-height: 100vh;
+    background-color: rgb(230, 230, 230);
+}
+
+.welcomeContainer{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textCol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: fadeIn 5s; 
+}
+
+.buttonCont{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login, .signup{
+    width: 10vw;
+    height: 5vh;
+    font-family: "Opens Sans", sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.welcomeText{
+    font-family: "Opens Sans", sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+@-webkit-keyframes fadeIn 
+{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
